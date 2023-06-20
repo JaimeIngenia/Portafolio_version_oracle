@@ -1,0 +1,256 @@
+section.title{
+    width: 100%;
+    /* border: solid red 3px; */
+    display: flex;
+    justify-content: space-around;
+}
+.title__div{
+    /* border: solid rgb(255, 230, 0) 3px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.title__profile{
+    width: 100%;
+    /* border: solid rgb(0, 255, 13) 3px; */
+}
+.title__container{
+    width: 70%;
+    /* border: solid rgb(255, 123, 0) 3px; */
+}
+
+.title__bio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+}
+.title__subsection{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    /* border: solid rgb(43, 255, 0) 3px; */
+}
+.title__network__item{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+.title__network__item a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+    margin-left: -35px;
+}
+
+.jaimeFoto{
+    width: 200px;
+}
+
+/*PRUEBA*/
+.title__imagen{
+                
+}
+
+.title__imagen--jaime{
+    width: 368px;
+    height: 368px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-image: url('../images/perfilJaime.jpg');
+    /* border: solid red 3px; */
+}
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1300px) {
+
+    .title__bio{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .title__subsection{
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1100px) {
+    /*PRUEBA*/
+
+    .title__imagen--jaime{
+        width: 268px;
+        height: 268px;
+    }
+    .title__bio{
+
+        font-weight: 700;
+        font-size: 39px;
+
+    }
+    .title__subsection{
+        font-weight: 400;
+        font-size: 19px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1000px) {
+    .title__imagen--jaime{
+        width: 238px;
+        height: 238px;
+    }
+    .title__bio{
+
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+
+    }
+    .title__subsection{
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .title__network{
+        width: 80%;
+    }
+    .title__network__item{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .title__network__item a{
+        text-decoration: none;
+        color: var(--cor-de-link);
+    }
+
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:835px) {
+
+
+    .title__imagen--jaime{
+        width: 188px;
+        height: 188px;
+    }
+    .title__bio{
+
+        font-weight: 700;
+        font-size: 28px;
+
+    }
+    .title__subsection{
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:735px) {
+
+    .title__imagen--jaime{
+        width: 118px;
+        height: 118px;
+    }
+    .title__imagen--jaime{
+        width: 188px;
+        height: 188px;
+    }
+    .title__bio{
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .title__subsection{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:675px) {
+    .title__imagen--jaime{
+        width: 148px;
+        height: 148px;
+    }
+    .title__bio{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .title__subsection{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:600px) {
+    .title__div{
+        flex-wrap: wrap-reverse;
+    }
+    .title__imagen{
+        width: 100%;
+    }
+    .title__imagen--jaime{
+        width: 138px;
+        height: 138px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .title__container{
+        width: 100%;
+    }
+}
+
+
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:450px) {
+    .title__imagen--jaime{
+        width: 98px;
+        height: 98px;
+    }
+    *{
+        /* border: solid red 10px; */
+    }
+    .title__network__item{
+        flex-wrap: wrap;
+    }
+    .title__network__item a{
+        font-size: 10px;
+    }
+}
