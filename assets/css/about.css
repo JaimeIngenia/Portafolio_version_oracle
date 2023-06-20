@@ -1,0 +1,76 @@
+
+section.about{
+    /* border: solid red 3px; */
+}
+.about__container{
+    /* border: solid rgb(68, 255, 0) 3px; */
+}
+.about__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+.about__paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:835px) {
+
+    .about__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .about__paragraph{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:700px) {
+
+    .about__title{
+
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .about__paragraph{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:600px) {
+
+    .about__title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .about__paragraph{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    
+}
