@@ -1,0 +1,144 @@
+section.skills{
+    width: 80%;
+    /* width: 704px; */
+    border: solid red 3px;   
+}
+
+.skills__title{
+    border: solid rgb(26, 255, 0) 3px;  
+    margin: 0 auto; 
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.skills__line{
+    width: 100%;
+    border: solid rgb(0, 128, 255) 3px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skills__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(230, 0, 255) 3px; 
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+
+.skills__box ul li{
+    border: solid rgb(0, 119, 255) 3px;   
+    margin: auto;   
+    /* margin-left: -30px; */
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1175px) {
+    /* section.skills{
+    width: 704px;
+    } */
+    .skills__box{
+        width: 126px;
+        height: 124px;
+        background: #FFFFFF;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1000px) {
+    /* section.skills{
+    width: 704px;
+    } */
+
+
+    .skills__box{
+        width: 106px;
+        height: 104px;
+        background: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width:875px) {
+
+    .skills__title{
+        font-size: 25px;
+    }
+    .skills__box{
+        width: 96px;
+        height: 94px;
+        background: #FFFFFF;
+    }
+}
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:780px) {
+
+    .skills__title{
+        margin-bottom: 19px;
+        font-size: 22px;
+    }
+    .skills__line{
+        flex-wrap: wrap;
+    }
+    .skills__box{
+        width: 106px;
+        height: 64px;
+        background: #FFFFFF;
+        margin-bottom: 20px;
+       
+    }
+    .skills__img--html{
+        width: 30px;
+        border: solid red 3px ;
+    }
+    .skills__img--js{
+        width: 30px;
+        border: solid red 3px ;
+    }
+    .skills__img--php{
+        width: 50px;
+        border: solid red 3px ;
+    }
+    .skills__img--node{
+        width: 40px;
+        border: solid red 3px ;
+    }
+    .skills__img--react{
+        width: 30px;
+        border: solid red 3px ;
+    }
+    .skills__img--css{
+        width: 25px;
+        border: solid red 3px ;
+    }
+
+    .skills__name{
+        font-size: 13px;
+    }
+}
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:500px) {
+
+    .skills__title{
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+}
