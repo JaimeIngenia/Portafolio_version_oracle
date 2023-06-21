@@ -294,5 +294,17 @@ section.experience{
         width: 100%;
         flex-wrap: wrap;
     }
+    .experiencia__botao--repo{
+        width: 108px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .experience__botao--demo{
+        margin-top: 5px;
+        width: 108px;
+        height: 40px;
+        font-size: 14px;
+    }
 
 }
