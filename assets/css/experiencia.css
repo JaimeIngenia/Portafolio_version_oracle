@@ -5,6 +5,7 @@ section.experience{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 32px;
 }
 .experience__section__title{
     /* border: solid 3px rgb(0, 21, 255); */
@@ -23,6 +24,7 @@ section.experience{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
 
 }
 

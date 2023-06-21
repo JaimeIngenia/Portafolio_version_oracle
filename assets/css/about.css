@@ -1,6 +1,9 @@
 
 section.about{
     /* border: solid red 3px; */
+    background: #EAF2FD;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .about__container{
     /* border: solid rgb(68, 255, 0) 3px; */

@@ -8,7 +8,9 @@ section.academic{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background: #EAF2FD;
+    padding-bottom: 32px;
+    padding-top: 16px;
 }
 
 .academic__title{
@@ -32,7 +34,7 @@ section.academic{
     align-items: center;
 }
 .academic__courses__box{
-    
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
