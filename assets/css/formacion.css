@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+
+section.academic{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.academic__title{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.academic__courses{
+    flex-wrap: wrap;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.academic__courses__box{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 347px;
+    margin: 5px;
+}
+.academic__courses__list{
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.academic__courses__item__img{
+    
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.academic__courses__item__img img{
+    margin: 0 auto;
+}
+
+.img_digital{
+    width: 150px;
+    
+}
+.img_alura{
+    width: 150px;
+    
+}
+.img_unal{
+    width: 130px;
+    
+}
+.img_itm{
+    width: 200px;
+    
+}
+
+
+.academic__courses__item__title{
+    font-size: 22px;
+}
+.academic__courses__item__subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1060px) {
+    .img_itm{
+        width: 150px;
+        
+    }
+    section.academic{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:920px) {
+    .academic__courses__item__title h4{
+        font-size: 18px;
+
+    }
+    .academic__courses__box{
+        width: 22%;
+        height: 257px;
+    }
+    section.academic{
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .academic__title{
+        font-size: 22px;
+    }
+    /*imagenes*/
+    
+    .img_digital{
+        width: 100px;
+        
+    }
+    .img_alura{
+        width: 100px;
+        
+    }
+    .img_unal{
+        width: 80px;
+        
+    }
+    .img_itm{
+        width: 130px;
+        
+    }
+    .academic__courses__item__img{
+        
+        width: 100%;
+        height: 165px;
+    }
+
+    .academic__courses__list{
+        
+        height: 240px;
+    }
+    .academic__courses__item__subtitle{
+        font-size: 14px;
+    }
+
+}
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:700px) {
+
+    .academic__courses{
+        flex-wrap: wrap;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .academic__courses__box{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 22%;
+        height: 210px!important;
+        margin: 5px;
+    }
+    .academic__courses__item__img{
+        
+        width: 100%;
+        height: 120px;
+    }
+    .academic__courses__list{
+        
+        height: 180px !important;        
+    }
+    .img_itm{
+        width: 100px;
+    }
+    .academic__courses__item__title h4{
+        font-size: 16px;
+    }
+    .academic__courses__list{
+        height: 250px;
+    }
+    .academic__courses__box{
+        width: 130px;
+        height: 260px;
+        /* margin: 5px; */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:370px) {
+    .academic__courses__box{
+        
+        width: 100%;
+        height: 190px!important;
+        margin: 5px;
+    }
+    .img_itm{
+        width: 150px;
+    }
+}
