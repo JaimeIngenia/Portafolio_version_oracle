@@ -65,6 +65,8 @@ section.formcontato{
     height: 133px;
 }
 .formcontato__botao{
+    background: none;
+    border: 0;
     margin-top: 32px;
     width: 144px;
     height: 51px;

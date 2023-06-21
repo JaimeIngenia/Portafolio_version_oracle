@@ -45,6 +45,9 @@ section.experience{
     /* border: solid 3px rgb(251, 0, 255); */
     width: 30%;
 }
+.experience__info--estilo{
+    margin-left: 15px;
+}
 .experience__title{
     font-family: 'Raleway';
     font-style: normal;
@@ -202,6 +205,9 @@ section.experience{
 
     .experience__info{
         width: 40%;
+    }
+    .experience__info--estilo{
+        margin-left: 0px;
     }
 }
 
