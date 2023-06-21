@@ -1,0 +1,47 @@
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formcontato__form [required]:valid{
+    border: thin solid greenyellow;
+}
+.formcontato__form [required]:invalid{
+    border: thin solid rgb(255, 61, 47);
+}
+.formcontato__span{
+    background-color: rgba(255, 55, 0, 0.725);
+    color: white;
+    transition: all 800ms ease;
+}
+
+.formcontato__span.is__active {
+    display: block;
+    animation: show-message 1s 1 normal 0s ease-out both;
+}
+
+@keyframes show-message {
+    0%{
+        visibility: hidden;
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.formcontato__loader{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.formcontato__response{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.noneJ{
+    display: none;
+}

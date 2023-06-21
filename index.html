@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./assets/css/hobbies.css">
     <link rel="stylesheet" href="./assets/css/formacion.css">
     <link rel="stylesheet" href="./assets/css/experiencia.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
 </head>
 <body>
     <!-- Sección del Menú  -->
@@ -275,13 +276,67 @@
                     <h2 id="dilbani" class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                    <form 
+                    target="_blank" 
+                    class="formcontato__form" 
+                    name="form" 
+                    action="https://formsubmit.co/jamoncayop@unal.edu.co" 
+                    method="POST">
+                    <input type="hidden" name="_next" value="https://static.vecteezy.com/system/resources/previews/011/084/510/non_2x/thank-you-button-thank-you-speech-bubble-thank-you-colorful-label-sign-template-thank-you-symbol-web-banner-vector.jpg">
+                        <input 
+                            required 
+                            class="formcontato__input" 
+                            type="text" 
+                            name="nombre" 
+                            placeholder="Nombre" 
+                            title="Nombre solo acepta letras y espacios en blanco"
+                            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                        >
+                        <span class="formcontato__span noneJ" id="nombre">Nombre solo acepta letras y espacios en blanco</span>
+
+                        <input 
+                            required 
+                            class="formcontato__input" 
+                            type="email" 
+                            name="email" 
+                            placeholder="E-mail" 
+                            title="El email es requerido"
+                            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                        >
+                        <span class="formcontato__span noneJ" id="email" >El email es requerido</span>
+                        
+                        <input 
+                            required
+                            class="formcontato__input" 
+                            type="text" 
+                            name="asunto" 
+                            placeholder="Assunto" 
+                            title="El asunto es requerido"
+                            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                        >
+                        <span class="formcontato__span noneJ" id="asunto" >El asunto es requerido</span>
+                        
+                        <textarea 
+                            required 
+                            class="formcontato__textarea" 
+                            rows="5" 
+                            cols="40" 
+                            id="mensagem" 
+                            name="mensaje" 
+                            placeholder="Escribe tus comentarios"
+                            title="Tu comentario no debe exceder los 255 caracteres"
+                            data-pattern="^.{1,255}$"
+                            >
+                        </textarea>
+
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
+                    <div class="formcontato__loader noneJ">
+                        <img src="./assets/images/loader.svg" alt="Cargando">
+                    </div>
+                    <div class="formcontato__response noneJ">
+                        <p>Los datos han sido enviados</p>
+                    </div>
                 </div>
             </div>
         </section>
