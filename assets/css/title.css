@@ -159,6 +159,7 @@ section.title{
     .title__imagen--jaime{
         width: 188px;
         height: 188px;
+
     }
     .title__bio{
 
@@ -177,15 +178,28 @@ section.title{
 /* PARTE RESPONSIVE***************************************************************************** */
 
 @media only screen and (max-width:735px) {
+    .title__imagen{
 
+        /* padding-right: 150px; */
+        /* border: solid red 3px; */
+        margin-bottom: 16px;
+        margin-top: -6px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -30px!important;
+        
+    }
     .title__imagen--jaime{
+        /* margin-right: 220px!important; */
         width: 118px;
         height: 118px;
+        /* border: solid rgb(0, 98, 255) 3px; */
+
     }
-    .title__imagen--jaime{
+    /* .title__imagen--jaime{
         width: 188px;
         height: 188px;
-    }
+    } */
     .title__bio{
         font-weight: 700;
         font-size: 25px;
